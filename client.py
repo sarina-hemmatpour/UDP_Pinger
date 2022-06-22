@@ -15,7 +15,7 @@ seqNumber=0
 clientSocket=socket.socket(socket.AF_INET , socket.SOCK_DGRAM)
 #clientSocket.bind((host , port))
 
-clientSocket.settimeout(0.00000000000000001)
+clientSocket.settimeout(1)
 
 
 
